@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    background: linear-gradient(#fff 30%, #4b575a 70%);
+    
+}
+nav{
+    height: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+.menu a{
+    text-transform: capitalize;
+    text-decoration: none;
+    gap: 30px;
+    /*background-color: yellow;
+    */padding: 10px 20px;
+    color: black;
+    font-size: 23px;
+    font-family: sans-serif;
+    transition:0.4s;
+    /* justify-content: space-evenly; */
+    
+}
+.menu a:last-child{
+    background: #262626;
+    color: white;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background: #262626;
+    color: white;
+    border-radius: 8px;
+
+}
+#table{
+    
+    right: 10%;
+    position: absolute;
+    
+}
+.htxt{
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.htxt h1{
+    font-size: 4em;
+}
+.htxt h2{
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.htxt h1 span{
+    color:  #d63031;
+}
+.htxt a{
+    text-decoration: none;
+    color: white;
+    background: #d63031;
+    padding: 10px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+
+
